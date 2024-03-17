@@ -1,0 +1,31 @@
+#my-projects {
+  padding-top: 10em;
+}
+
+.container-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+.view-more {
+  font-family: 'Montserat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.view-more a {
+  color: #6246ea;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .container-projects {
+    gap: 2em;
+  }
+}

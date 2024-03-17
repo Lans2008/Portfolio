@@ -1,0 +1,25 @@
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bar-heading {
+  margin: 0.5em 0px;
+  width: 7%;
+  height: 8px;
+  background-color: #8336a4;
+  border-radius: 50px;
+}
+
+.bar-heading p {
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bar-heading {
+    width: 15%;
+  }
+}

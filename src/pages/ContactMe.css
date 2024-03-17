@@ -1,0 +1,42 @@
+#contact {
+  padding-top: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-input {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-submit {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-heading {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #contact {
+    padding-top: 3em;
+  }
+
+  .contact-input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #contact {
+    padding-top: 5em;
+  }
+}

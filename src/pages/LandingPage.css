@@ -1,0 +1,110 @@
+#home {
+  padding-top: 2em;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+aside {
+  width: 55%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+aside h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.3em;
+  color: #2b2c34;
+  margin: 0.3em 1em;
+  font-weight: 500;
+}
+
+aside p {
+  font-size: 1.7em;
+  color: #2b2c34;
+  margin: 0px 2em;
+  word-spacing: 5px;
+  width: 80%;
+}
+
+.button {
+  margin: 1.5em 3.4em;
+}
+
+main {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure {
+  width: 55%;
+  height: 55%;
+  background-image: url(../img/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.figure img {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 100%;
+  height: 25em;
+  margin-bottom: -0.6em;
+}
+
+@media screen and (max-width: 576px) {
+  #home {
+    padding-top: 12em;
+    height: 50vh;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    margin-top: 1em;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .figure {
+    width: 80%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #home {
+    padding-top: 5em;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside {
+    height: 50vh;
+  }
+
+  main {
+    height: 50vh;
+  }
+
+  .figure {
+    width: 70%;
+  }
+}

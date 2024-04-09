@@ -22,4 +22,8 @@
   .bar-heading {
     width: 15%;
   }
+
+  .title-heading h1 {
+    font-size: 2rem;
+  }
 }

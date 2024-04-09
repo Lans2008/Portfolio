@@ -97,6 +97,9 @@
 /* Menu Toggle End */
 
 @media screen and (max-width: 576px) {
+  .title {
+    font-size: 0.8rem;
+  }
   /* .text {
     width: 100%;
     display: flex;

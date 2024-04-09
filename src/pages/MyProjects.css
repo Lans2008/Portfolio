@@ -11,6 +11,11 @@
   margin-top: 2em;
 }
 
+.container-projects a {
+  width: 25%;
+  /* height: 5rem; */
+}
+
 .view-more {
   font-family: 'Montserat', sans-serif;
   display: flex;
@@ -23,9 +28,18 @@
   color: #6246ea;
   text-decoration: none;
 }
+@media screen and (max-width: 576px) {
+  #my-projects {
+    padding-top: 4em;
+  }
+
+  .container-projects a {
+    width: 85%;
+  }
+}
 
 @media screen and (max-width: 1040px) {
   .container-projects {
-    gap: 2em;
+    gap: 1rem;
   }
 }

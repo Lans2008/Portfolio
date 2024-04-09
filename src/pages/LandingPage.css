@@ -1,8 +1,7 @@
 #home {
-  padding-top: 2em;
+  padding-top: 10rem;
   display: flex;
   width: 100%;
-  height: 100vh;
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -11,7 +10,7 @@
 
 aside {
   width: 55%;
-  height: 100vh;
+  padding: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -21,90 +20,99 @@ aside h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3.3em;
   color: #2b2c34;
-  margin: 0.3em 1em;
+  /* margin: 0.3em 1em; */
   font-weight: 500;
 }
 
 aside p {
   font-size: 1.7em;
   color: #2b2c34;
-  margin: 0px 2em;
+  margin: 1rem 0px;
   word-spacing: 5px;
   width: 80%;
 }
 
-.button {
-  margin: 1.5em 3.4em;
-}
-
 main {
   width: 45%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.figure {
-  width: 55%;
-  height: 55%;
-  background-image: url(../img/Background.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.figure img {
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  width: 100%;
-  height: 25em;
-  margin-bottom: -0.6em;
-}
-
-@media screen and (max-width: 576px) {
-  #home {
-    padding-top: 12em;
-    height: 50vh;
-  }
-
-  aside {
-    display: none;
-  }
-
-  main {
-    margin-top: 1em;
-    width: 100%;
-    height: 40vh;
-  }
-
-  .figure {
-    width: 80%;
-    height: 40vh;
-  }
+main img {
+  width: 60%;
 }
 
 @media screen and (max-width: 1040px) {
   #home {
-    padding-top: 5em;
-    height: 50vh;
+    padding-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   aside {
-    height: 50vh;
+    width: 55%;
+  }
+
+  aside h1 {
+    font-size: 3rem;
+    /* margin: 0.3em 3.4rem; */
+  }
+
+  aside p {
+    font-size: 1.5rem;
+    /* margin: 0px 3.5rem; */
   }
 
   main {
-    height: 50vh;
+    width: 45%;
   }
 
-  .figure {
+  main img {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home {
+    padding-top: 5rem;
+  }
+
+  aside {
+    padding: 1rem;
+    box-sizing: border-box;
+    align-items: start;
+    justify-content: start;
+  }
+
+  aside h1 {
+    font-size: 1.5rem;
+    margin: 0px;
+    /* display: none; */
+  }
+
+  aside p {
+    font-size: 0.8rem;
+    margin: 0px;
+    width: 100%;
+  }
+
+  main {
+    margin-top: 1em;
+    width: 45%;
+  }
+
+  main img {
+    width: 80%;
+  }
+
+  .button {
+    margin: 0.5rem 0px;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.7rem;
   }
 }

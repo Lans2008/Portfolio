@@ -25,13 +25,13 @@ const Navbar = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Project</a>
+            <a href="#my-projects">Project</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <div className="menu-toggle">

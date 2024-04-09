@@ -4,7 +4,7 @@ import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';
 import LandingPage from './pages/LandingPage';
 import MyProjects from './pages/MyProjects';
-import Footer from './pages/Footer'
+import Footer from './pages/Footer';
 
 function App() {
   return (

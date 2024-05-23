@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ee3fc9ec.css",
-    "main.js": "/Portfolio/static/js/main.8f427023.js",
-    "static/media/japan.png": "/Portfolio/static/media/japan.64333450c4acd9846fdd.png",
+    "main.css": "/Portfolio/static/css/main.642cd9f5.css",
+    "main.js": "/Portfolio/static/js/main.f9a436ea.js",
     "static/media/komick.png": "/Portfolio/static/media/komick.98a58f45d323748641be.png",
     "static/media/restaurant.png": "/Portfolio/static/media/restaurant.9022a35096bcb71d443d.png",
+    "static/media/Gambar (3).png": "/Portfolio/static/media/Gambar (3).dbec1944c76b01e9cbab.png",
     "static/media/Maulana.png": "/Portfolio/static/media/Maulana.8d0cda3e07312f0c1fcd.png",
-    "static/media/Company.jpg": "/Portfolio/static/media/Company.5cbb5251a5e40ce31a17.jpg",
-    "static/media/Headphone.jpg": "/Portfolio/static/media/Headphone.9988303040a243044c0a.jpg",
+    "static/media/japan.jpg": "/Portfolio/static/media/japan.2c18ad373618fb950cf5.jpg",
+    "static/media/Dressly.jpg": "/Portfolio/static/media/Dressly.7ed5592d3b4119373b0e.jpg",
+    "static/media/al-nasr.jpg": "/Portfolio/static/media/al-nasr.a21101366d34f64344a5.jpg",
     "static/media/instagram.png": "/Portfolio/static/media/instagram.79535458a8a6d88f81d4.png",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.3c4e1a5d3a149087b144.png",
     "static/media/sass.png": "/Portfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
@@ -19,11 +20,11 @@
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/facebook.png": "/Portfolio/static/media/facebook.4f037d961598aff2a0a4.png",
     "index.html": "/Portfolio/index.html",
-    "main.ee3fc9ec.css.map": "/Portfolio/static/css/main.ee3fc9ec.css.map",
-    "main.8f427023.js.map": "/Portfolio/static/js/main.8f427023.js.map"
+    "main.642cd9f5.css.map": "/Portfolio/static/css/main.642cd9f5.css.map",
+    "main.f9a436ea.js.map": "/Portfolio/static/js/main.f9a436ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee3fc9ec.css",
-    "static/js/main.8f427023.js"
+    "static/css/main.642cd9f5.css",
+    "static/js/main.f9a436ea.js"
   ]
 }
